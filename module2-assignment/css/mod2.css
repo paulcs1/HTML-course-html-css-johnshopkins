@@ -1,0 +1,28 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+
+/********** Desktop version **********/
+@media (min-width: 992px){
+	/* s  */
+	.col-lg-4 {
+	   width: 33.33%;
+	 }
+
+
+
+}
+
+/********** Tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/********** mobile version **********/
+@media (max-width: 767px) {
+
+
+}
