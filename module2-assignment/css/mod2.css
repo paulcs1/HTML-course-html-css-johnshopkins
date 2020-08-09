@@ -3,20 +3,44 @@
   box-sizing: border-box;
 }
 
+h1 {
+	text-align: center;
+}
+
 p {
-	border: 1px solid black;
-	/*height: 150px;*/
-	margin-right: 15px;
-  margin-left: 15px;
+	margin-right: auto;
+  margin-left: auto;
   padding: 10px;
 }
 
-.p1 {
-	float: right;
+/* clear right so that it maintains document flow */
+section {
+	margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+	clear: right;
 }
 
+.p1, .p2, .p3 {
+	float: right;
+	border: 1px solid black;
+	margin-top: 0;
+	margin-bottom:5px;
+}
+
+/* Customizes the title of first section */
+.p1 {
+	background-color: crimson;
+}
+
+/* Customizes the title of first section */
 .p2 {
-	
+	background-color: dodgerblue;
+}
+
+/* Customizes the title of first section */
+.p3 {
+	background-color: gold;
 }
 
 /* Simple Responsive Framework.   */
@@ -30,6 +54,10 @@ p {
 	.col-lg-4 {
 		float: left;
 	  width: 33.33%;
+	  height: 300px;
+	  border: 1px solid black;
+	  position: relative;
+	  background-color:lightgreen;
 	}
 
 
@@ -40,6 +68,8 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6, .col-md-12 {
     float: left;
+    border: 1px solid black;
+    background-color:lightgreen;
   }
 	.col-md-6 {
     width: 50%;
@@ -56,6 +86,8 @@ p {
 	.col-sm-12 {
 		float: left;
     width: 100%;
+    border: 1px solid black;
+    background-color:;
   }
 
 
