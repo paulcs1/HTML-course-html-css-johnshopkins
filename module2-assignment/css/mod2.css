@@ -1,6 +1,6 @@
 /********** Base styles **********/
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -9,15 +9,15 @@ h1 {
 
 p {
 	margin-right: auto;
-  margin-left: auto;
-  padding: 10px;
+	margin-left: auto;
+	padding: 10px;
 }
 
 /* clear right so that it maintains document flow */
 section {
 	margin-right: auto;
-  margin-left: auto;
-  padding: 15px;
+	margin-left: auto;
+	padding: 15px;
 	clear: right;
 }
 
@@ -48,7 +48,7 @@ section {
 
 /* Simple Responsive Framework.   */
 .row {
-  width: 100%;
+	width: 100%;
 }
 
 /********** Desktop version **********/
@@ -56,12 +56,12 @@ section {
 	.desktop-3-equal {
 		float: left;
 		position: relative;
-	  width: 31.33%;
-	  height: 300px;
-	  border: 1px solid black;
-	  margin: 1%;
-	  background-color:lightgreen;
-	  overflow: hidden;
+		width: 31.33%;
+		height: 245px;
+		border: 1px solid black;
+		margin: 1%;
+		background-color: lightgreen;
+		overflow: hidden;
 	}
 
 }
@@ -69,30 +69,30 @@ section {
 /********** Tablet version **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	.tablet-2-equal, .tablet-1-row {
-    float: left;
-    border: 1px solid black;
-    margin:1%;
-    background-color:lightgreen;
-    overflow: hidden;
-  }
+		float: left;
+		border: 1px solid black;
+		margin: 1%;
+		background-color: lightgreen;
+		overflow: hidden;
+	}
 	.tablet-2-equal {
-    width: 48%;
-    height: 300px;
-  }
-  .tablet-1-row {
-    width: 98%;
-  }
+		width: 48%;
+		height: 245px;
+	}
+	.tablet-1-row {
+		width: 98%;
+	}
 }
 
 /********** mobile version **********/
 @media (max-width: 767px) {
 	.mobile-1-row {
 		float: left;
-    width: 98%;
-    border: 1px solid black;
-    margin:1%;
-    margin-bottom:2%;
-    background-color:lightgreen;
-    overflow: hidden;
-  }
+		width: 98%;
+		border: 1px solid black;
+		margin: 1%;
+		margin-bottom: 2%;
+		background-color: lightgreen;
+		overflow: hidden;
+	}
 }
