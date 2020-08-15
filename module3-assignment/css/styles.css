@@ -1,0 +1,15 @@
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+/** HEADER **/
+
+.navbar-brand h1 { /* Restaurant name */
+	margin-top: 0;
+	margin-bottom: 0;
+}
