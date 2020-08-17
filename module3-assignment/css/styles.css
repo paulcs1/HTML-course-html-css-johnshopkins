@@ -3,13 +3,55 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	text-align: center;
-}
-
 /** HEADER **/
 
 .navbar-brand h1 { /* Restaurant name */
+	font-size: 1.2em;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+.navbar-collapse {
+	padding-right:0;
+	padding-left: 0;
+}
+
+.container > .text-center {
+	font-size: 2em;
+}
+
+#main-content {
+	border: 1px solid black;
+	/*width: 360px;*/
+}
+
+#nav-list {
+	margin: 0;
+}
+
+#nav-list a {
+  color: white;
+  background-color: DarkGray;
+  text-align: center;
+}
+
+#nav-list > li {
+	border: 1px solid black;
+	margin: 0;
+}
+
+.col-xs-12{
+	/*border: 1px solid black;*/
+	/*margin : 10px;*/
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsible-nav a { /* Collapsed nav menu text */
+	    font-size: 1.2em;
+	}
+	#main-content{
+		width: 360px;
+	}
 }
